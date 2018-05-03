@@ -52,6 +52,12 @@ a:focus {
 .light {
   font-weight: 400;
 }
+
+.navbar-brand > img {
+  display: block;
+  max-height:150px;
+}
+
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -70,6 +76,10 @@ a:focus {
 }
 .navbar-custom .navbar-brand {
   font-weight: 700;
+}
+img #nav-logo-horiz {
+  max-height: 150px;
+  vertical-align: top;
 }
 .navbar-custom .navbar-brand:focus {
   outline: none;
